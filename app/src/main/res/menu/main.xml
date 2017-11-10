@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_fav"
+        android:orderInCategory="1"
+        android:title="Favoritos"
+        android:icon="@drawable/favorito"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_menu"
+        android:orderInCategory="2"
+        android:title="Menu"
+        android:icon="@mipmap/ic_options"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_add"
+        android:orderInCategory="0"
+        android:title="Agregar"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>

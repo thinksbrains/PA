@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_entretenimiento"
+            android:icon="@drawable/entretenimiento"
+            android:title="Entretenimiento" />
+        <item
+            android:id="@+id/nav_bancos"
+            android:icon="@drawable/bancos"
+            android:title="Bancos" />
+        <item
+            android:id="@+id/nav_comida"
+            android:icon="@drawable/comida"
+            android:title="Comida" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@drawable/servicios"
+            android:title="Servicios" />
+    </group>
+
+    <item android:title="configuraciones">
+        <menu>
+            <item
+                android:id="@+id/nav_mi_cuenta"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Mi Cuenta" />
+            <item
+                android:id="@+id/nav_preferencias"
+                android:icon="@drawable/config"
+                android:title="preferencias" />
+            <item
+                android:id="@+id/nav_salir"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

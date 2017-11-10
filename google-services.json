@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "425887870759",
+    "firebase_url": "https://placeapp-f68dd.firebaseio.com",
+    "project_id": "placeapp-f68dd",
+    "storage_bucket": "placeapp-f68dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425887870759:android:fd72ed52be0b656f",
+        "android_client_info": {
+          "package_name": "com.devilucky.placeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425887870759-25vv1bdssdmtmjloe195ptofivum90p2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devilucky.placeapp",
+            "certificate_hash": "8eaa61fae466217b2802a2cb6bc99371c48b0f4f"
+          }
+        },
+        {
+          "client_id": "425887870759-ae8jnm1m2u6sclvv5jhhvrlsvmodtm92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2u2IlZuc_M5xZRBDnKgcfkptG4vaJmEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425887870759-ae8jnm1m2u6sclvv5jhhvrlsvmodtm92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

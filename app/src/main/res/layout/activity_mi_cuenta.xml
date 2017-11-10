@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devilucky.placeapp.MiCuentaActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/com_facebook_profile_picture_blank_square" />
+
+    <TextView
+        android:id="@+id/tv_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Sin Usuario"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historial de Transacciones:" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reciclador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView15"
+            android:layout_alignParentTop="true"
+            android:layout_margin="2dp"></android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/bt_paypal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/gradient_buton"
+            android:text="paypal" />
+
+        <Button
+            android:id="@+id/bt_pagonet"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bt_paypal"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/gradient_buton"
+            android:text="Pagonet" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bt_pagonet"
+            android:layout_alignParentStart="true"
+            android:text="Metodos de pago:" />
+
+    </RelativeLayout>
+
+</LinearLayout>
